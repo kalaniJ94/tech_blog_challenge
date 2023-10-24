@@ -16,8 +16,8 @@ Tip.init(
             type: Datatypes.STRING,
             allowNull: false,
         },
-        comment: {
-            type: Datatypes.STRING,
+        description: {
+            type: Datatypes.TEXT,
         },
         date_created: {
             type: Datatypes.DATE,
